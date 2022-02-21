@@ -15,3 +15,7 @@ Las herramientas que usaremos son.
 - Figma para el diseño.
 - html, css y javascript puros para el frontend.
 - Y para el backend php, y base de datos, el backend sería casi de mentira, es decir, los datos serían estáticos. 
+
+
+# Integrantes:
+# RanaDS1 
