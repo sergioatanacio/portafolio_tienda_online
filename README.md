@@ -18,4 +18,5 @@ Las herramientas que usaremos son.
 
 
 # Integrantes:
-# RanaDS1 
+RanaDS1
+ThomasJODT
