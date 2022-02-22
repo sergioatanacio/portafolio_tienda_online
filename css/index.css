@@ -1,0 +1,77 @@
+:root {
+    --morado_primario: #7935fe;
+    --morado_secundario: #786DEC;
+    --celeste_principal: #90F9F5;
+    --celeste_secundario: #C6F7F9;
+    --texto_claro: #CBCACA;
+    --texto_oscuro: #6B6B6B;
+    --auxiliar: #FFDA9F;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--morado_primario);
+}
+.nav-icons-left {
+    display: flex;
+    gap: 8px;
+}
+.nav-icons-left  .menu-button {
+    height: 48px;
+    width: 48px;
+    background-image: url(../assets/icons/menu-icon.svg);
+    background-size: 32px;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+.nav-icons-left .logo-container {
+    height: 48px;
+    width: 48px;
+}
+.nav-icons-left .logo-container img {
+    width: 48px;
+    height: 48px;
+}
+.searchbar-container {
+    max-width: 300px;
+}
+.searchbar-container .searchbar {
+    border: none;
+    border-radius: 12px;
+    height: 32px;
+    margin: 8px 0;
+    max-width: 300px;
+    padding-left: 8px;
+}
+.nav-icons-right {
+    display: flex;
+    gap: 4px;
+    margin-right: 4px;
+}
+.nav-icons-right .shopping-cart-container {
+    height: 48px;
+    width: 48px;
+    background-image: url(../assets/icons/shoppin-cart-icon.svg);
+    background-position:  center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+.nav-icons-right .user-account-settings {
+    height: 48px;
+    width: 48px;
+    background-image: url(../assets/icons/user-button.svg);
+    background-position:  center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
