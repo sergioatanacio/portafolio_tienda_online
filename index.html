@@ -7,26 +7,40 @@
     <title>MiFarmacia on-line</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="./assets/icons/logo.png" type="image/x-icon">
+    <link href='https://css.gg/css' rel='stylesheet'>
 </head>
 <body>
-    <nav>
-        <div class="nav-icons-left">
-            <div class="menu-button"></div>
-            <!-- <div class="logo-container">
-                <img src="./assets/icons/logo.png" alt="Logo image">
-            </div> -->
+    <nav class="navbar">
+        <div class="burger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-        <div class="searchbar-container">
-            <input class="searchbar" type="text" name="search-bar" id="search-bar" placeholder="Busca un producto">
+
+        <div class="searchBar-container">
+            <input type="text" name="searchBar" id="" placeholder="Buscar">
         </div>
-        <div class="nav-icons-right">
-            <div class="shopping-cart-container"></div>
-            <div class="user-account-settings"></div>
+        <div class="shoppingCart-container">
+            <a href="#" class="shoppingCart-button"></a>
+        </div>
+        <div class="account-settings-container">
+            <a href="#" class="account-settings-button"></a>
         </div>
     </nav>
-
-    <section class="slider">
-        
-    </section>
+    <div class="side-menu">
+        <ul class="menu-list">
+            <a class="nav-link" href="#">Niños</a>
+            <li class="menu-item"><a class="nav-link" href="#">Pañales</a></li>
+            <li class="menu-item"><a class="nav-link" href="#">Jarabes</a></li>
+        </ul>
+        <ul class="menu-list">
+            <a class="nav-link" href="#">Adultos</a>
+            <li class="menu-item"><a class="nav-link" href="#">Pastillas</a></li>
+            <li class="menu-item"><a class="nav-link" href="#">Inyectables</a></li>
+            <li class="menu-item"><a class="nav-link" href="#">Sueros</a></li>
+            <li class="menu-item"><a class="nav-link" href="#">Calmantes</a></li>
+        </ul>
+    </div>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
