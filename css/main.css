@@ -38,8 +38,9 @@ main
     height: auto;
 }
 
-.login -log
+/* about_us */
+.header_about_us
 {
-
+    display: grid;
 }
 
