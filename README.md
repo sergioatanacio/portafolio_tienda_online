@@ -16,7 +16,10 @@ Las herramientas que usaremos son.
 - html, css y javascript puros para el frontend.
 - Y para el backend php, y base de datos, el backend sería casi de mentira, es decir, los datos serían estáticos. 
 
+## Link de diseño
+- Nuestro [diseño en Figma](https://www.figma.com/file/tTI0cKsDsZqbIcsf6QJSL6/Portafolio-Tienda-Online?node-id=0%3A1 "Link de Figma").
 
 # Integrantes:
-RanaDS1
-ThomasJODT
+- [RanaDS1](https://github.com/RanaSD1)
+- [ThomasJODT](https://github.com/ThomasJODT)
+- [sergioatanacio](https://github.com/sergioatanacio)
