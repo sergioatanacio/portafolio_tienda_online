@@ -16,7 +16,7 @@ li {list-style: none;}
 a{color: #FFF; text-decoration: none;}
 
 .navbar {
-    background-color: #7935FE;
+    background-color: var(--morado_primario);
     height: 48px;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ a{color: #FFF; text-decoration: none;}
 .side-menu {
     display: flex;
     flex-direction: column;
-    background-color: #90F9F5;
+    background-color: var(--celeste_principal);
     width: 100%;
     position: relative;
     left: -100%;

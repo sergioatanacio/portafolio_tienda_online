@@ -84,5 +84,7 @@ main {
     width: 16rem;
     justify-content: center;
     display: flex;
+    display: grid;
+    grid-column: 1fr 1fr;
 }
 
