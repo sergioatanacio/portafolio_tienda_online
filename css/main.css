@@ -1,46 +1,88 @@
-:root
-{
+:root {
     --black: #000;
     --white: #fff;
     --morado_primario: #7935FE;
     --morado_secundario: #786DEC;
     --celeste_principal: #90F9F5;
-    --celeste_secundario: #C6F7F9; 
+    --celeste_secundario: #C6F7F9;
     --texto_claro: #CBCACA;
     --texto_oscuro: #6B6B6B;
-    --auxiliar: #FFDA9F; 
+    --auxiliar: #FFDA9F;
 }
 
-*
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html
-{
+html {
     font-family: 'Roboto', sans-serif;
-    font-size: 62.5%; 
+    font-size: 62.5%;
 }
-
 
 /* LOGIN PARTE BY RANA */
-main
-{
+main {
     width: 100%;
-    height: 10vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: var(--celeste_principal);
 }
 
-.login
-{
+.login {
     width: 320px;
     height: auto;
 }
 
 /* about_us */
-.header_about_us
-{
+.header_about_us {
     display: grid;
+    grid-column: 1fr 1fr;
+    grid-template: 1fr / 2em 2rem;
+    max-height: 2rem;
+    justify-content: space-between;
+    max-width: 16rem;
+    width: 16rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph_text {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8.5rem;
+}
+
+.primary_button {
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: var(--morado_primario);
+    font-size: 1rem;
+    min-height: 1.6rem;
+    color: var(--texto_claro);
+}
+
+.section_about {
+    max-width: 16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_title {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
+
+.header_icons {
+    max-height: 2rem;
+}
+
+.title_container_section {
+    max-width: 16rem;
+    width: 16rem;
+    justify-content: center;
+    display: flex;
 }
 
