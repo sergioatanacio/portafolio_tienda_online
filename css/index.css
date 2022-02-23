@@ -134,7 +134,6 @@ aside {
     margin-left: 32px;
 }
 .main-slider-container {
-    /* object-fit: center; */
     width: 100%;
 }
 .main-slider-container img {
@@ -168,5 +167,8 @@ aside {
     .main-slider-container {
         width: calc(100% - 150px);
         float: left;
+    }
+    .main-slider-container img {
+        height: 400px;
     }
 }
