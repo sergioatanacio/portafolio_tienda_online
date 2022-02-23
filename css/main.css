@@ -32,10 +32,6 @@ main {
     background-color: var(--celeste_principal);
 }
 
-.login {
-    width: 320px;
-    height: auto;
-}
 
 /* about_us */
 .header_about_us {
