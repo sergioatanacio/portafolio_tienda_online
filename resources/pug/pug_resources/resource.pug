@@ -1,0 +1,24 @@
+mixin head_template(css)
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        title MiFarmacia on-line
+        link(rel="shortcut icon" href="./assets/icons/logo.png" type="image/x-icon")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(href=css rel="stylesheet") 
+
+mixin navbar_main_miFarmacia()
+    nav.navbar
+        .burger-menu
+            span.bar 
+            span.bar 
+            span.bar
+        .searchBar-container
+            input(type="text" name="searchBar" id="" placeholder="Buscar")
+        .navbar-right
+            .shoppingCart-container
+                a.shoppingCart-button(href="#")
+            .account-settings-container
+                a.account-settings-button(href="#")

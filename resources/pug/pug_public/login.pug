@@ -1,0 +1,21 @@
+include ../pug_resources/resource.pug
+
+doctype html
+html(lang="en")
+    +head_template('css/ranads1.css')
+    body: main
+        .register: .register-container
+            // <div class="login__container-logo"></div> 
+            p.register-title Login
+            .login-container__input
+                .input__item
+                    label(for="email") Email 
+                    input(type="email" name="" id="email" placeholder="pepegames142@gmail.com")
+                .input__item
+                    label(for="password") Password 
+                    input(type="password" name="password" id="password" placeholder="***************")
+            button.login__start Login
+            a.login__forgot(href="/") Forgot my password
+            button.login__sign Sign Up
+
+

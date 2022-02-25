@@ -1,0 +1,23 @@
+include ../pug_resources/resource.pug
+
+doctype html
+html(lang="en")
+    +head_template("css/index.css")
+    body
+        +navbar_main_miFarmacia()
+        aside.side-menu
+            a(href="#" class="homeButton" title="Inicio")
+            ul.menu-list
+                a.nav-link(href="#") Niños
+                li.menu-item: a.nav-link(href="#") Pañales
+                li.menu-item: a.nav-link(href="#") Jarabes
+            ul.menu-list
+                a.nav-link(href="#") Adultos
+                li.menu-item: a.nav-link(href="#") Pastillas
+                li.menu-item: a.nav-link(href="#") Inyectables
+                li.menu-item: a.nav-link(href="#") Sueros
+                li.menu-item: a.nav-link(href="#") Calmantes
+        main 
+            .main-slider-container: img(src="./assets/img/sliderImage1.jpg" alt="")
+            section.main-content
+        script(src="scripts/index.js") 
