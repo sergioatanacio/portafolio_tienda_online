@@ -1,17 +1,7 @@
-:root {
-    --morado_primario: #7935fe;
-    --morado_secundario: #786DEC;
-    --celeste_principal: #90F9F5;
-    --celeste_secundario: #C6F7F9;
-    --texto_claro: #CBCACA;
-    --texto_oscuro: #6B6B6B;
-    --auxiliar: #FFDA9F;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} 
+@import "../scss_resources/scss_resources.scss";
+
+
+
 li {list-style: none;}
 a{color: #FFF; text-decoration: none;}
 

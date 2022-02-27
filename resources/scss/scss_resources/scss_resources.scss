@@ -1,0 +1,27 @@
+// @import "../scss_resources/normalize.scss";
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --morado_primario: #7935FE;
+    --morado_secundario: #786DEC;
+    --celeste_principal: #90F9F5;
+    --celeste_secundario: #C6F7F9;
+    --texto_claro: #CBCACA;
+    --texto_oscuro: #6B6B6B;
+    --auxiliar: #FFDA9F;
+}
+
+html
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%; 
+}
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

@@ -6,3 +6,4 @@ public/*.css
 public/css/*.css
 public/css
 node_modules
+package-lock.json

@@ -13,8 +13,13 @@ Crear una tienda virtual.
 
 Las herramientas que usaremos son. 
 - Figma para el diseño.
-- html, css y javascript puros para el frontend.
-- Y para el backend php, y base de datos, el backend sería casi de mentira, es decir, los datos serían estáticos. 
+- html con pug, css con sass para facilitar el desarrollo de fronted y javascript puro.
+- Y para el backend php, no vamos a usar una base de datos, es decir los datos que envíe el backend van a ser estáticos. Lo importante es conectarse con el backend. 
+
+## Ejecutar
+- Para ejecutar el proyecto se tienen que instalar xammp, para poder ejecutar el servidor php.
+- Tambien se tienen que instalar nodejs para poder compilar los archivo en pug.
+- Para compilar los archivos pug y sass ejecutar en la línea de comandos php shell_start.php
 
 ## Link de diseño
 - Nuestro [diseño en Figma](https://www.figma.com/file/tTI0cKsDsZqbIcsf6QJSL6/Portafolio-Tienda-Online?node-id=0%3A1 "Link de Figma").
