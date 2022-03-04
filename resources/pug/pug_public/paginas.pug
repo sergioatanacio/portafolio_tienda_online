@@ -1,0 +1,17 @@
+include ../pug_resources/resource.pug
+
+doctype html
+html(lang="en")
+    +head_template("css/index.css")
+    body
+        +navbar_main_miFarmacia()
+        section#enlaces_paginas 
+            br
+            a(href="/login.html") login
+            br
+            a(href="/about_us.html") about_us
+            br
+            a(href="/create_new_account.html") create_new_account
+            br
+            a(href="/index.html") index
+        script(src="scripts/index.js") 
