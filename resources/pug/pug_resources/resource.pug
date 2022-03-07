@@ -1,13 +1,12 @@
 mixin head_template(css)
-    head
-        meta(charset="utf-8")
-        meta(http-equiv="X-UA-Compatible" content="IE=edge")
-        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        title MiFarmacia on-line
-        link(rel="shortcut icon" href="./assets/icons/logo.png" type="image/x-icon")
-        meta(name="description" content="")
-        meta(name="author" content="")
-        link(href=css rel="stylesheet") 
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    title MiFarmacia on-line
+    link(rel="shortcut icon" href="./assets/icons/logo.png" type="image/x-icon")
+    meta(name="description" content="")
+    meta(name="author" content="")
+    link(href=css rel="stylesheet") 
 
 mixin navbar_main_miFarmacia()
     nav.navbar
@@ -19,6 +18,26 @@ mixin navbar_main_miFarmacia()
             input(type="text" name="searchBar" id="" placeholder="Buscar")
         .navbar-right
             .shoppingCart-container
-                a.shoppingCart-button(href="#")
+                a.shoppingCart-button#carrito_navbar(href="#")            
             .account-settings-container
                 a.account-settings-button(href="#")
+        script.
+            let carrito_navbar = document.getElementById('carrito_navbar');
+            carrito_navbar.addEventListener('click', function(event_of_click_for_default)
+                {
+                    event_of_click_for_default.preventDefault();
+                    let data = new FormData();
+                    console.log(data)
+                    fetch('carrito').then(response => response.text())
+                    .then(function(texto) 
+                    {
+                        console.log(texto);
+                    })
+                    .catch(function(error) 
+                    {
+                        console.log(error);
+                    })
+                });
+
+
+

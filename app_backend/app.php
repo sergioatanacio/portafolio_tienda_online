@@ -53,6 +53,16 @@ $response = [
             "imagen"=>   "/assets/parasetamol.jpg",
         ],  
     ]),
+    '/categorias'   => json_encode([
+        [
+            'categoria'         =>'Niños',
+            'sub_categorias'    => ['Pañales', 'Jarabes',],
+        ],
+        [
+            'categoria'         =>'Adultos',
+            'sub_categorias'    => ['Pastillas', 'Inyectables', 'Sueros', 'Calmantes',],
+        ],
+    ]),
 ];
 
 

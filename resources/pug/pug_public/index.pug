@@ -2,11 +2,11 @@ include ../pug_resources/resource.pug
 
 doctype html
 html(lang="en")
-    +head_template("css/index.css")
+    head: +head_template("css/index.css")
     body
         +navbar_main_miFarmacia()
         aside.side-menu
-            a(href="#" class="homeButton" title="Inicio")
+            a(href="paginas.html" class="homeButton" title="Inicio")
             ul.menu-list
                 a.nav-link(href="#") Niños
                 li.menu-item: a.nav-link(href="#") Pañales

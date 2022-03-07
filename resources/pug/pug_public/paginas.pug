@@ -2,10 +2,15 @@ include ../pug_resources/resource.pug
 
 doctype html
 html(lang="en")
-    +head_template("css/index.css")
+    head: +head_template("css/index.css")
     body
         +navbar_main_miFarmacia()
-        section#enlaces_paginas 
+        style.
+            #enlaces_paginas a
+            {
+                Font-size: 30px;
+            }
+        section#enlaces_paginas
             br
             a(href="/login.html") login
             br
@@ -14,4 +19,10 @@ html(lang="en")
             a(href="/create_new_account.html") create_new_account
             br
             a(href="/index.html") index
+            br
+            a(href="/carrito.html") carrito
+            br
+            a(href="/administrative_panel.html") administrative_panel
+            br
+            a(href="/mi_perfil.html") mi_perfil
         script(src="scripts/index.js") 

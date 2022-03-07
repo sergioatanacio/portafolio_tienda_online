@@ -2,7 +2,7 @@ include ../pug_resources/resource.pug
 
 doctype html
 html(lang="en")
-    +head_template('css/ranads1.css')
+    head: +head_template("css/ranads1.css")
     body: main
         .register: .register-container
             // <div class="login__container-logo"></div> 
@@ -16,7 +16,7 @@ html(lang="en")
                     input(type="password" name="password" id="password" placeholder="***************")
             button.login__start Login
             a.login__forgot(href="/") Forgot my password
-            button.login__sign Sign Up
+            a(href="create_new_account.html"): button.login__sign Sign Up
         script. 
             console.log('Hola mundo');
 

@@ -2,14 +2,17 @@ include ../pug_resources/resource.pug
 
 doctype html
 html(lang="en")
-    head: +head_template("css/main.css")
+    head
+        +head_template("css/main.css")
+        link(rel="stylesheet", href="css/index.css")
     body
+        +navbar_main_miFarmacia()
         main
             header.header_about_us
                 <img src="assets/icons/logo.png" alt="" class="header_icons"> 
                 <img src="assets/icons/user-button.svg" alt="" class="header_icons"> 
             section.title_container_section
-                <h1 class="section_title">Nostros</h1> 
+                <h1 class="section_title">Carrito</h1> 
             section.section_about
                 <p class="paragraph_text">Somos una farmacia virtual que vende los productos de primera necesidad par ael cuidad de la salud.
                 | Lo hacemos por deliverí y llegamos a distintos lugares del Perú, de la manera más rápida posible.</p> 
